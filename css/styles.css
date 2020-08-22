@@ -1,0 +1,156 @@
+body{
+	font-size: 14px;
+    letter-spacing: 1px;
+    color: #333;
+    background-color: #fff;
+}
+.overlay{
+	width:100% ;
+	height: 100%;
+	position: absolute;
+	z-index: 3;
+	background-color: rgba(0,0,0,0.3);
+}
+.slides-navigation{
+	z-index: 6;
+}
+
+.slides-navigation .prev,
+.slides-navigation .next{
+	width: 47px;
+	height:47px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.slides-navigation a.prev{
+	left:20px;
+	background-image: url(../images/back.png);
+}
+.slides-navigation a.next{
+	right:20px;
+	background-image: url(../images/next.png);
+}
+.titleMes{
+	position: absolute;
+    height: 250px;
+    width: 100%;
+    z-index: 5;
+    top: 50%;
+    text-align: center;
+    margin-top: -100px;
+
+}
+.titleMes .heading p{
+	color: #fff;
+    text-shadow: 0px 2px 5px rgba(0,0,0,0.4);
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.titleMes .heading .main{
+	font-size: 50px;
+    font-family: sans-serif;
+}
+.titleMes .heading .sub{
+	padding-top: 20px;
+	font-family: sans-serif, bold;
+
+}
+.section{
+	padding: 100px 0;
+}
+.aboutimage{
+	max-width: 100%;
+	padding-left: 20px;
+}
+.intro{
+	padding-top:10px;
+	font-family: serif;
+	font-weight: 90%; 
+	text-align: center;
+    -webkit-text-stroke-width: thin;
+}
+.skillssection ,.contactsection{
+	background-color: #e74c3c;
+	color: #fff;
+}
+.repre{
+	letter-spacing: 2px;
+
+}
+.skill{
+	text-align: center;
+
+}
+.chart{
+	position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    margin-left: 25px;
+    text-align: center;
+    }.chart canvas{
+    	position: absolute;
+    top: 0;
+    left: 0;
+}
+.chart .percent{
+	color: #000;
+    line-height: 150px;
+    font-size: 30px
+}
+.chart .percent:after{
+	content:'%';
+}
+
+.contactsection{
+	height: 300px;
+
+
+}
+
+.subheadinghear{
+	font-size: 30px;
+    padding-bottom: 35px
+}
+
+.contactbutton{
+	color: #fff;
+    padding: 4px 20px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+.contactbutton:hover{
+	text-decoration: none;
+	color: #e74c3c;
+	background-color: #fff;
+
+}
+
+.copyrightsection{
+	background-color: #000;
+	color: #fff;
+	padding: 30px 5px; 
+}
+.copyrightsection p{
+	margin: 0;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+.loader{
+	width: 100%;
+	height:100%;
+	background-color: #fff;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index: 1000;
+
+}
+.loader .innerloader{
+	width: 100%;
+	height:100%;
+	background:url(../images/loaderimg.gif) center center no-repeat;
+	
+
+}
